@@ -1,5 +1,7 @@
 # 🤖 nostr-code-snippet-mcp
 
+[video demo](https://v.nostr.build/RSMqDK9pwTIm6bxu.mp4)
+
 
 Add this to your claude config file:
 
