@@ -43,7 +43,11 @@ const server = createServer((socket) => {
         event = eventData;
       }
 
+      console.log("Received event");
+
       const signedEvent = finalizeEvent(event, PRIVATE_KEY);
+
+      console.log("Signed event");
 
       socket.write(JSON.stringify(signedEvent));
       socket.end();
